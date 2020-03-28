@@ -1,0 +1,27 @@
+/* default style for the body and heading */
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2vw; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+ font-family: 'Crimson Text', serif;
+}
+/* end of the default style */
+
+
+/* logo design */
+.nav_brand {
+    height: 35px !important; 
+}
+
+/* end logo design */
+
+/* navigation style */ 
+.nav-bg {
+    background: #010840; 
+}
+/* navigation style ends here */ 
+
+/* style for search bar */

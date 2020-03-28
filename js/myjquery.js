@@ -1,0 +1,3 @@
+$(function(){
+	$('.mdb-select').materialSelect();
+})

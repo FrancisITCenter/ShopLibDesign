@@ -11,22 +11,62 @@
 
     <!-- normalize css -->
     <link rel="stylesheet" href="css/normalize.css">
-    
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    <!-- search selection link  -->
+    
+    <!-- end search selection link  -->
     
     <!-- Default style for our homepage -->
     <link rel="stylesheet" href="css/style.css">
     
+    <!-- Body and heading font link - we are using crimson & work sans   -->
+    <!-- font link ends here    -->
+    
   </head>
   <body>
-   
+<!--  navigation -->
+   <nav class="navbar navbar-expand-sm nav-bg">
+  <a class="navbar-brand" href="#" > <img src="img/logo/main.png" class="nav_brand" alt="ShopLib Logo">  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  
+<!--  search bar -->
+<form action="" class="col-sm-6">
+ <div class="input-group ">
+  <div class="input-group-prepend">
+    <select name="search" id="search" value="search" class="input-group-text ">
+        <option value="All" selected disabled> All </option>
+        <option value="Book"> Book </option>
+        <option value="Software"> Software </option>
+        <option value="Electronic"> Electronic </option>
+        <option value="Computer"> Computer </option>
+        </select>     
+  </div>
+  <input type="text" class="form-control ml-auto">
+  <div class="input-group-append">
+    <button class="input-group-text" type="submit"> <i class="fas fa-search"></i> </button>
+  </div>
+</div>   
+</form>
+
+  
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+        
+    </ul>
+  </div>
+</nav>
 
    
    
    
    
    
+
 
 <!--   jquery both local and online -->
     <script src="//code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
@@ -34,11 +74,30 @@
       <script>window.jQuery || document.write("<script src='js/jquery.min.js'> <\/script>") </script>
 <!--jquery ends here -->
     
-    
-<!--    bootstrap and popper -->
+<!--font awesome -->
+<script src="https://kit.fontawesome.com/caf8ef9d11.js" crossorigin="anonymous"></script>
+<!-- end font awesome -->
+
+<!-- search bar javascript files -->
+                       
+<!-- end search bar -->
+                        
+<!--  bootstrap and popper -->
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 <!--bootstrap and popper ends here -->
-    
+
+<!-- selection library -->
+<script src="js/myjquery.js"></script>
+<!-- end selection -->
+
+                                        
+<!-- our default js file that will contain all our jquery code  -->
+<script src="js/myjquery.js"></script>
+
+<!-- Default js files that will will contain all our javascript code  -->
+<script src="js/default.js"> </script>
+<!-- end default js -->
+        
   </body>
 </html>
