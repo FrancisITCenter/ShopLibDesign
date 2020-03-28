@@ -56,4 +56,12 @@ h1, h2, h3, h4, h5, h6 {
 /* submenu style */
 .ml-8 {
     margin-left: 10%; 
+} 
+
+/*media query for submenu style */
+@media only screen and (max-width: 900px){
+    .ml-8 {
+        margin-left: 20% !important; 
+    }
 }
+
