@@ -22,7 +22,8 @@
     <!-- Default style for our homepage -->
     <link rel="stylesheet" href="css/style.css">
     
-    <!-- Body and heading font link - we are using crimson & work sans   -->
+    <!-- Body and heading font link - we are using lato & prata -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,700|Prata" rel="stylesheet">
     <!-- font link ends here    -->
     
   </head>
@@ -30,15 +31,23 @@
 <!--  navigation -->
    <nav class="navbar navbar-expand-sm nav-bg">
   <a class="navbar-brand" href="#" > <img src="img/logo/main.png" class="nav_brand" alt="ShopLib Logo">  </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  
+       
+        <!-- mobile navigation -->
+          <div class="new_items d-sm-none d-block">
+            <a class="nav-link" href="#"> 
+                <i class="fas fa-shopping-cart"></i>
+             </a>
+            <a class="nav-link" href="#"> 
+              <i class="fas fa-user"></i>
+             </a>
+          </div>
+        <!-- end mobile navigation -->
+        
 <!--  search bar -->
-<form action="" class="col-sm-6">
- <div class="input-group ">
+<form action="" class="col-sm-6 col-12 p-0 m-0">
+ <div class="input-group">
   <div class="input-group-prepend">
-    <select name="search" id="search" value="search" class="input-group-text ">
+    <select name="search" value="search" class="input-group-text">
         <option value="All" selected disabled> All </option>
         <option value="Book"> Book </option>
         <option value="Software"> Software </option>
@@ -46,20 +55,40 @@
         <option value="Computer"> Computer </option>
         </select>     
   </div>
-  <input type="text" class="form-control ml-auto">
+  <input type="text" class="form-control ml-auto" placeholder="Enter a word to search">
   <div class="input-group-append">
     <button class="input-group-text" type="submit"> <i class="fas fa-search"></i> </button>
   </div>
 </div>   
-</form>
-
-  
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+</form>  
+<!-- end search bar -->
+  <div class="collapse navbar-collapse d-sm-none" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto">
-        
+        <li class="nav-item">
+            <a class="nav-link" href="#">Hi, Guest Signin</a>
+        </li> 
+        <li class="nav-item">
+            <a class="nav-link" href="#"> <i class="fas fa-shopping-cart"></i> Chart</a>
+        </li>
     </ul>
   </div>
 </nav>
+<nav class="navbar navbar-expand-sm nav-bg">
+ <div class="ml-8 d-none d-sm-block">
+     <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+            <a class="nav-link" href="#">Today's Deal </a>
+        </li> 
+        <li class="nav-item">
+            <a class="nav-link" href="#">Customer Service </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#"> Sell </a>
+        </li>
+    </ul>
+ </div>
+</nav>
+
 
    
    
@@ -75,7 +104,7 @@
 <!--jquery ends here -->
     
 <!--font awesome -->
-<script src="https://kit.fontawesome.com/caf8ef9d11.js" crossorigin="anonymous"></script>
+<script src="js/caf8ef9d11.js"></script>
 <!-- end font awesome -->
 
 <!-- search bar javascript files -->
