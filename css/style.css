@@ -98,7 +98,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .carousel-caption {
-width:300px;
+width:350px;
 z-index:10;
 color:#fff;
 text-align:center;
@@ -147,26 +147,28 @@ transform:translate(0, -50%);
 }
 
 /* style for recent viewed items */
-.recent_img {
-    height: 200px; 
-    width: auto; 
+
+.recent_images {
+    height: 33%; 
+    width: auto !important;
 }
 
-.recent_head h3 a {
+h3.recent_head {
     color: black;
-    font-weight: bolder !important;
-    font-size: 1em;
+    font-size: 1.5em;
+    font-weight: 900 !important;
+    font-family: 'Prata', serif;
 }
 
-.recent_head h3 a:hover {
-    text-decoration: underline;
+.price {
+        display: block; 
+        margin: 0px auto; 
+        text-align: center;
+        color: black;
+        font-weight: 400;
 }
 
-#recent a {
-    color: black;
-    font-size: 0.9em;
-}
-
-#recent .price {
-        margin-top: 5px;
+.price:hover {
+    color:#333; 
+    text-decoration: underline; 
 }
