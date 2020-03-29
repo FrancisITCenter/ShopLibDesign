@@ -78,6 +78,19 @@ h1, h2, h3, h4, h5, h6 {
 } 
 
 /* end sub mobile menu here */
+
+/* search style */
+.search_category {
+    width: 150px; 
+    height: 38px !important;
+    
+}
+/* end search style */
+
+.main_form .input-group-text {
+    height: auto !important; 
+}
+
 /* carousel style */
 
 .carousel-item {

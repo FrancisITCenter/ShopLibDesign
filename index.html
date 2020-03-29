@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     
     <!-- search selection link  -->
-    
+    <link rel="stylesheet" href="css/tail.select-default.min.css">
     <!-- end search selection link  -->
     
 <!-- light slider -->
@@ -49,11 +49,11 @@
         <!-- end mobile navigation -->
         
 <!--  search bar -->
-<form action="" class="col-sm-7 col-12 p-0 m-0">
- <div class="input-group">
-  <div class="input-group-prepend ">
-    <select name="search" value="search" class="input-group-text d-none d-sm-block">
-        <option value="All" selected disabled> All </option>
+<form action="" class="col-sm-7 col-12 p-0 m-0 main_form">
+ <div class="input-group ml-4">
+  <div class="input-group-prepend d-none d-sm-block search_category">
+    <select name="search" value="search" id="search_selection">
+       <option value="All category" selected="selected"> All category </option>
         <option value="Book"> Book </option>
         <option value="Software"> Software </option>
         <option value="Electronic"> Electronic </option>
@@ -61,7 +61,7 @@
         </select>     
   </div>
   <input type="text" class="form-control ml-auto" placeholder="Enter a word to search">
-  <div class="input-group-append">
+  <div class="input-group-append ">
     <button class="input-group-text" type="submit"> <i class="fas fa-search"></i> </button>
   </div>
 </div>   
@@ -203,7 +203,7 @@
 <!--bootstrap and popper ends here -->
 
 <!-- selection library -->
-<script src="js/myjquery.js"></script>
+<script src="js/tail.select-full.min.js"></script>
 <!-- end selection -->
 
 <!-- light slider -->
